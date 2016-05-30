@@ -10,7 +10,7 @@ body{
 }
 
 .breadcrumbs li: before{
-    content: ">";
+    content: " > ";
 }
 
 .breadcrumbs li: first-child:before{
