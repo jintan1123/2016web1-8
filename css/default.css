@@ -10,6 +10,7 @@ body{
   text-align: center;
   text-decoration: none;
   background: darkgreen;
+  font-weight: bold;
   color: white;
 }
 #gnav a:hover{
