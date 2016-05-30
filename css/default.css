@@ -3,3 +3,16 @@
 body{
   background-color: mediumaquamarine;
 }
+
+.breedcrumbs li{
+    display: inline;
+    list-style-type: none;
+}
+
+.breedcrumbs li: before{
+    content: ">";
+}
+
+.breedcrumbs li: first-child:before{
+    content:"";
+}
