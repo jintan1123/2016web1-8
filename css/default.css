@@ -9,6 +9,9 @@ body{
 }
 
 #logo li{
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 10px;
   float: left;
   list-style-type: none;
 }
