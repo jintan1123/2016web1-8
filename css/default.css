@@ -45,6 +45,20 @@ body{
   list-style-type: none;
 }
 
+#gnav div .img{
+  display: table-cell;
+  vertical-align: middle;
+  background: url(../img/css_sprite.png) no-repeat;
+  width: 55px;
+  height 46px;
+}
+
+div.img#home{ background-position: 0 0px;}
+div.img#content1{ background-position: 0 0px;}
+div.img#content2{ background-position: 0 -92px;}
+div.img#help{ background-position: 0 -138px;}
+div.img#faq{ background-position: 0 -185px;}
+
 .breadcrumbs li{
     display: inline;
     list-style-type: none;
